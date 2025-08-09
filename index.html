@@ -1,0 +1,23 @@
+Vai_tannlege_mvp/
+  app/
+    main.py
+    database.py
+    models.py
+    schemas.py
+    routers_appointments.py
+    routers_chat.py
+    routers_twilio.py
+    services/
+      notifications.py   # SMS/e-post (Twilio/SendGrid) – fallback logger lokalt
+      assistant.py       # OpenAI eller lokal FAQ
+      faq_loader.py
+    static/
+      index.html         # Demo-landing
+      widget.html        # Chat-widget
+      booking_form.html  # Enkel booking
+      styles.css
+    data/faq.md          # FAQ-basert fallback
+  requirements.txt
+  Dockerfile
+  .env.example
+  README.md
